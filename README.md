@@ -1,2 +1,1 @@
-# grolegor.github.io
-Yegor Grol's CV
+# Yegor Grol's personal page

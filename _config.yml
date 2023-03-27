@@ -1,0 +1,151 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Yegor Grol
+title: Software Engineer
+email: grolegor@gmail.com
+
+# Dark Mode (true/false/never)
+darkmode: true
+
+# Social links
+stackoverflow_username: "10082337"
+instagram_username: grol.egor
+github_username:  grolegor
+#linkedin_username: grolegor
+
+# Additional icon links
+additional_links:
+- title: grolegor
+  icon: fa fa-telegram
+  url: t.me/grolegor
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi! My name is Yegor Grol. I am a software engineer with 8 years of experience.
+  - Interested in highload
+  - Technology agnostic
+  - Try to be as pragmatic as possible (I never choose technology X just because: “really want to try X”, “have more experience with X” and so on)
+  - Not interested in managing people
+  - Like problem solving and technical challenges
+  - Interested in working with highly skilled and motivated team
+  - Consider remote positions only
+
+content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Yandex
+        link: https://market.yandex.ru/
+        sub_title: Software Engineer
+        caption: since April 2023
+        description: | # this will include new lines to allow paragraphs
+          <mark>Sorting centers for Yandex Market</mark> project:
+          
+          <mark>Java</mark> <mark>Spring Boot</mark> <mark>Postgres</mark> <mark>Hibernate</mark>
+      - layout: left
+        title: Leroy Merlin
+        link: https://leroymerlin.ru
+        sub_title: Software Engineer
+        caption: January 2020 - May 2022 (2 years and 5 months)
+        description: | # this will include new lines to allow paragraphs
+          <mark>Search Engine and Recommendations</mark> project:
+          - Provides customers and store employees with an opportunity to search by product data in various publication channels (site, mobile apps - for external and internal users).
+          - Provides various types of searching (including full-text search by product data, search by product id, by product barcode and so on), aggregating, filtering, and ranking search results.
+          - "Search Engine" is the most loaded service at Leroy Merlin (up to 600 qps for search queries, up to 1500 qps for autocompletion).
+          - Highly critical for business. If the system is down, it leads to very high costs for the business due to the fact that searching is the first step for customer experience.
+          - Low latency and High Availability are crucial (99th percentile for response time: 300 ms, 99.99% availability)
+          
+          You can check it here: [leroymerlin.ru](https://leroymerlin.ru)
+          
+          <mark>Kotlin</mark> <mark>Spring Boot</mark> <mark>Kafka</mark> <mark>Elasticsearch</mark> <mark>MongoDB</mark> <mark>Kubernetes</mark> <mark>Python</mark> <mark>Flask</mark> <mark>Catboost</mark> <mark>ClickHouse</mark> <mark>Airflow</mark>
+      - layout: left
+        title: Orbita
+        link: https://orbita.center/
+        sub_title: Software Engineer
+        caption: January 2019 - December 2019 (1 year)
+        description: | # this will include new lines to allow paragraphs
+          <mark>Business Travel</mark> project.
+          
+          I was involved in development of a backend service for business travel application that facilitates logistics planning. It recommends the most optimal means of transportation and hotel accommodations, makes all necessary reservations, including all kinds of transfers to or from railway stations, airports, hotels, etc. It also supports creating travel policies for a particular company, notifications, reports etc.
+          
+
+          Check it out: [center.travel](https://center.travel/)
+          
+          <mark>Kotlin</mark> <mark>Spring Boot</mark> <mark>Spring Reactor</mark> <mark>WebFlux</mark> <mark>RabbitMQ</mark> <mark>MongoDB</mark> <mark>Kubernetes</mark>
+
+      - layout: left
+        title: Sberbank Technology
+        link: https://sbertech.ru/
+        sub_title: Site Reliability Engineer
+        caption: October 2016 - December 2018 (2 years and 3 months)
+        description: | # this will include new lines to allow paragraphs
+          <mark>Small Business Monitoring</mark> project
+          
+          I was involved in development of various tools for software developers who create a solution for small businesses monitoring based on the Pega BPM system
+          
+          Improved deployment frequency, faster time to market, lower failure rate of new releases, shortened lead time between fixes, faster mean time to recovery (in the event of a new release crashing or otherwise disabling the current system).
+          
+          <mark>Pega BPM</mark> <mark>Oracle</mark> <mark>Liquibase</mark> <mark>Groovy</mark> (building CI/CD pipelines) <mark>Docker</mark> <mark>Maven</mark> (writing custom plugins) <mark>Ansible</mark> <mark>Micrometer</mark> <mark>Prometheus</mark> <mark>Grafana</mark>
+
+
+      - layout: left
+        title: Netcracker Technology
+        link: https://netcracker.com/
+        sub_title: Software Engineer
+        caption: May 2014 - September 2016 (2 years and 5 months)
+        description: | # this will include new lines to allow paragraphs
+          <mark>Resource Management Component</mark> project
+          
+          I was involved in development of Data Warehouse for Deutsche Telekom Inventory (building ETL process, data reconciliation, etc.)
+          
+          <mark>Java</mark> <mark>Oracle</mark>
+
+
+
+  - title: Languages
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - English: <mark>Upper-Intermediate (B2)</mark>
+      - Russian: <mark>Native</mark>
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Saratov State University
+        caption: 2010 - 2016
+        sub_title: Computer science and information technology
+        description: | # this will include new lines to allow paragraphs
+          Theoretical foundations of computer security and cryptography
+          
+          Master’s degree in cryptography
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in software engineering, here is the list of my other interests and hobbies:
+      - Chess (99.9th percentile on [chess.com](https://www.chess.com/stats/live/rapid/grolegor))
+      - Traveling: Argentina ![Argentina](/images/argentina.png)   Ireland ![Argentina](/images/ireland.png)   Netherlands ![Argentina](/images/netherlands.png)   Germany ![Argentina](/images/germany.png)   France ![Argentina](/images/france.png)   Uruguay ![Argentina](/images/uruguay.png)   Thailand ![Argentina](/images/thailand.png)   Turkey ![Argentina](/images/turkey.png)   Greece ![Argentina](/images/greece.png) and many more in the future! 
+      - Cycling
+
+# Footer
+footer_show_references: false
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
